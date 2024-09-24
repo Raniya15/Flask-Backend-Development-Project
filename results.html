@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regex Results</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="results-container">
+        <h1>Regex Matching Results</h1>
+
+        <h2>Test String:</h2>
+        <p>{{ test_string }}</p>
+
+        <h2>Regular Expression:</h2>
+        <p>{{ regex_pattern }}</p>
+
+        {% if matches %}
+            <h3>Matches Found:</h3>
+            <ul>
+                {% for match in matches %}
+                    <li>{{ match}}</li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <h3>No matches found.</h3>
+        {% endif %}
+
+        <br>
+        <a href="/" class="back-btn">Go Back</a>
+    </div>
+</body>
+</html>
