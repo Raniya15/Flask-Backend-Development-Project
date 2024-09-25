@@ -8,32 +8,9 @@ A web application built using Flask to simplify regular expression (regex) testi
 3. Highlighting of Matched Text: Visual representation of matches found in the input.
 4. Flask Backend: Built using Python Flask to handle regex logic and routing.
 
-* Installation
-To run this project locally, follow these steps:
-
-Prerequisites
+* Prerequisites
 1. Python 3.x
 2. Flask
-
-Step-by-step Guide
-
-1. Clone the repository:
-
-git clone https://github.com/your-username/regex-web-app.git
-cd regex-web-app
-
-2. Create a virtual environment:
-
-python3 -m venv env
-source env/bin/activate  or For Windows  env\Scripts\activate
-
-3. Install dependencies:
-
-pip install -r requirements.txt
-
-4. Run the Flask app:
-   
-python app.py
 
 * Usage
 1. Input the string you want to test against in the text area.
