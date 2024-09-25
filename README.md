@@ -1,4 +1,5 @@
-Regex Web App
+*Regex Web App*
+
 A web application built using Flask to simplify regular expression (regex) testing and pattern matching. This app helps users test and visualize regex patterns against any given input, providing a clear understanding of the matched and unmatched parts of the text.
 
 * Features
