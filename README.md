@@ -1,7 +1,51 @@
-This project is a web application that allows users to test regular expressions (regex) on custom input strings. Built using Python's Flask framework, the app provides a simple interface where users can input both a test string and a regex pattern, and the app will display whether the pattern matches the string.
+Regex Web App
+A web application built using Flask to simplify regular expression (regex) testing and pattern matching. This app helps users test and visualize regex patterns against any given input, providing a clear understanding of the matched and unmatched parts of the text.
 
-Features:
-Input a test string and a regex pattern.
-Real-time feedback on whether the regex matches the test string.
-User-friendly interface with form validation.
-Deployed on an AWS EC2 instance (Ubuntu).
+* Features
+Real-time Regex Testing: Enter regex patterns and see matches in real time.
+User-Friendly Interface: Simple and intuitive UI for beginners and advanced users.
+Highlighting of Matched Text: Visual representation of matches found in the input.
+Flask Backend: Built using Python Flask to handle regex logic and routing.
+
+* Installation
+To run this project locally, follow these steps:
+
+Prerequisites
+Python 3.x
+Flask
+
+Step-by-step Guide
+
+1. Clone the repository:
+
+git clone https://github.com/your-username/regex-web-app.git
+cd regex-web-app
+
+2. Create a virtual environment:
+
+python3 -m venv env
+source env/bin/activate  or For Windows  env\Scripts\activate
+
+3. Install dependencies:
+
+pip install -r requirements.txt
+
+4. Run the Flask app:
+   
+python app.py
+
+* Access the app in your browser: Open http://127.0.0.1:5000 in your browser.
+
+Usage
+1. Input the string you want to test against in the text area.
+2. Enter your regex pattern in the provided field.
+3. The app will highlight the matches and provide additional details on captured groups and regex syntax errors if present.
+   
+* Example:
+Input: Hello, World!
+Pattern: [A-Za-z]+
+Matches: Hello, World
+
+Screenshots
+Here are a few screenshots showcasing the app's functionality:
+
