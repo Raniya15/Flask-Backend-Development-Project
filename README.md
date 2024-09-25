@@ -2,7 +2,7 @@
 
 A web application built using Flask to simplify regular expression (regex) testing and pattern matching. This app helps users test and visualize regex patterns against any given input, providing a clear understanding of the matched and unmatched parts of the text.
 
-* Features
+*Features*
 Real-time Regex Testing: Enter regex patterns and see matches in real time.
 User-Friendly Interface: Simple and intuitive UI for beginners and advanced users.
 Highlighting of Matched Text: Visual representation of matches found in the input.
