@@ -34,9 +34,7 @@ pip install -r requirements.txt
    
 python app.py
 
-* Access the app in your browser: Open http://127.0.0.1:5000 in your browser.
-
-Usage
+* Usage
 1. Input the string you want to test against in the text area.
 2. Enter your regex pattern in the provided field.
 3. The app will highlight the matches and provide additional details on captured groups and regex syntax errors if present.
@@ -45,7 +43,3 @@ Usage
 Input: Hello, World!
 Pattern: [A-Za-z]+
 Matches: Hello, World
-
-Screenshots
-Here are a few screenshots showcasing the app's functionality:
-
